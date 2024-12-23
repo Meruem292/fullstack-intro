@@ -1,12 +1,11 @@
 "use client";
-
-import CreatePost from "@/components/ui/createPost";
+import { TypewriterEffectDemo } from "@/components/index/typeWriter";
 
 export default function Home() {
   return (
     <main className="align-center justify-center flex flex-col h-screen space-y-4">
-      <h1>Welcome to my site</h1>
-      <CreatePost />
+      <TypewriterEffectDemo />
+   
     </main>
   );
 }
